@@ -3,8 +3,14 @@ import "./style.css";
 import { FiSearch } from "react-icons/fi";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { HiOutlineLocationMarker } from "react-icons/hi";
+import { useNavigate } from "react-router";
 
 const Search = () => {
+  const navigate = useNavigate()
+
+  const handleSearchClick = () => {
+    navigate('/results')
+  }
   return (
     <div className="search">
       <label className="search_label">
@@ -16,7 +22,7 @@ const Search = () => {
         <input type="text" value="New York (10118)" />
         <AiFillCloseCircle size={22}/>
       </label>
-      <button className="search_button">Search</button>
+      <button className="search_button" onClick={() => handleSearchClick()}>Search</button>
     </div>
   );
 };

@@ -3,12 +3,19 @@ import { AiFillCloseCircle } from 'react-icons/ai'
 import { FiSearch, FiArrowLeft } from 'react-icons/fi'
 import FiltersCarousel from '../components/FiltersCarousel/FiltersCarousel'
 import Results from '../components/Results/Results'
+import { useNavigate } from 'react-router'
 
 const SearchResults = () => {
+  const navigate = useNavigate()
+
+  const handleBackClick = () => {
+    navigate('/welcome')
+  }
+
   return (
     <div className='search_results'>
         <div className="search_results_title">
-            <FiArrowLeft size={20} color='#0C6BEE'/>
+            <FiArrowLeft size={20} color='#0C6BEE' onClick={() => handleBackClick()}/>
             <p>Search results</p>
             <div></div>
         </div>

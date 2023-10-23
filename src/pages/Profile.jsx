@@ -10,12 +10,19 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
 import { AiFillStar } from "react-icons/ai";
+import { useNavigate } from "react-router";
 
 const Profile = () => {
+  const navigate = useNavigate()
+
+  const handleBackClick = () => {
+    navigate('/results')
+  }
+
   return (
     <div className="profile">
       <div className="profile_title">
-        <FiArrowLeft size={20} color="#0C6BEE" />
+        <FiArrowLeft size={20} color="#0C6BEE" onClick={() => handleBackClick()}/>
         <p>Profile details</p>
         <BiHeart color="#0C6BEE" size={20} />
       </div>

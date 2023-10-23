@@ -6,8 +6,14 @@ import "swiper/css";
 import ResultDetails from "../ResultDetails/ResultDetails";
 import { BiHeart } from "react-icons/bi";
 import { BiSolidHeart } from "react-icons/bi";
+import { useNavigate } from "react-router";
 
 const Results = () => {
+  const navigate = useNavigate()
+
+  const handleProfileClick = () => {
+    navigate('/profile')
+  } 
   return (
     <div className="results">
       <h4 className="results_title">About {results.length} Results</h4>
@@ -19,7 +25,7 @@ const Results = () => {
         {results.map(
           ({ bestMatch, img, name, location, rating, liked, cost, about }) => (
             <>
-              <SwiperSlide className="results_swiper_slide">
+              <SwiperSlide className="results_swiper_slide" onClick={() => handleProfileClick()}>
                 <div className="results_swiper_slide_top">
                   {bestMatch === "true" ? (
                     <>

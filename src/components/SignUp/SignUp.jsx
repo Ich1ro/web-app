@@ -2,8 +2,14 @@ import React from 'react'
 import './style.css'
 import Input from '../../partials/Input'
 import Button from '../../partials/Button'
+import { useNavigate } from 'react-router'
 
 const SignUp = () => {
+  const navigate = useNavigate()
+
+  const signUp = () => {
+    navigate('/start/login')
+  }
   return (
     <div className='signup'>
       <h3>Welcome back!</h3>
@@ -16,7 +22,7 @@ const SignUp = () => {
             <input type='checkbox'/>
             <p>I would like to stay updated on the latest news, events and updates</p>
         </div>
-       <Button text='Sign up'/>
+       <Button text='Sign up' onClick={() => signUp()}/>
       </form>
     </div>
   )

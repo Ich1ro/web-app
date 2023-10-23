@@ -1,9 +1,9 @@
 import React from 'react'
 import './style.css'
 
-const Button = ({text}) => {
+const Button = ({text, onClick}) => {
   return (
-    <button className='partial_button'>{text}</button>
+    <button className='partial_button' onClick={() => onClick()}>{text}</button>
   )
 }
 
