@@ -1,0 +1,45 @@
+.sortby {
+    display: flex;
+    width: 350px;
+    text-align: start;
+    flex-direction: column;
+}
+
+.sortby > h5 {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.sortby_item {
+    height: 45px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.sortby_active {
+    background-color: #e8efff !important;
+}
+
+.sortby_item_title {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.sortby_hide {
+    display: none;
+}
+
+.sortby_hide > svg {
+    padding-right: 20px;
+    color: #0c6bee;
+}
+
+.sortby_hide_active {
+    display: flex !important;
+}

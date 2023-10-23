@@ -1,0 +1,32 @@
+.learn_more {
+  text-align: start;
+  margin: 20px;
+  padding: 20px;
+  background-color: #e8efff;
+}
+
+.learn_more > p {
+  font-size: 12px;
+  font-weight: 400;
+  color: gray;
+}
+
+.learn_more > h4, .learn_more > p {
+  margin: 10px 0;
+}
+
+.learn_more > p {
+    margin-top: 0;
+}
+
+.learn_more_button {
+  height: 40px;
+  margin: 0;
+  border: none;
+  border-radius: 8px;
+  font-family: Poppins;
+  background-color: #0e6def;
+  width: 100%;
+  color: white;
+  font-weight: 500;
+}

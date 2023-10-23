@@ -1,0 +1,20 @@
+.partial_input, .partial_button {
+    height: 50px;
+    padding: 0 16px;
+    margin: 0;
+    border: none;
+    border-radius: 8px;
+    font-family: Poppins;
+}
+
+.partial_input {
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.partial_button {
+    width: 100%;
+    background-color: #0E6DEF;
+    color: white;
+    font-weight: 600;
+}

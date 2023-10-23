@@ -1,0 +1,25 @@
+.services {
+  text-align: start;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.services_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services > h4 {
+    margin-bottom: 5px;
+}
+
+.services_list > p {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 6px 10px;
+  background-color: #d7e7fd;
+  border-radius: 8px;
+  margin: 0;
+  margin-right: 8px;
+  margin-top: 8px;
+}

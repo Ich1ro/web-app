@@ -1,0 +1,422 @@
+.logo > h1 {
+  text-transform: uppercase;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+.popup_container {
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  position: relative;
+}
+
+.popup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 1;
+  bottom: 0;
+  height: 95%;
+  width: 100%;
+  position: absolute;
+  background-color: #f5f7f7;
+  border-radius: 16px 16px 0 0;
+}
+
+.popup_header {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.popup_header > a {
+  color: #0c6bee;
+  text-decoration: none;
+}
+
+.popup_header > a:last-child {
+  font-weight: 600;
+}
+
+.price_category {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 350px;
+}
+
+.price_category > h5 {
+  margin: 10px 0;
+}
+
+.price_category_items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price_category_items > p {
+  width: 23%;
+  height: 45px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.price_category_items > p {
+  width: 23%;
+  height: 45px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.category_active {
+  background-color: #e8efff !important;
+}
+
+.apply_button_container {
+  width: 350px;
+  height: 45px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.apply_button {
+  width: 350px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Poppins;
+  background-color: #0c6bee;
+  margin-bottom: 10px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+}
+
+.search_results {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search_results_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+}
+
+.search_results_title > div {
+  width: 20px;
+}
+
+.profile {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile_title {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile_info {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  justify-content: start;
+  margin-bottom: 15px;
+}
+
+.profile_info > img {
+  border-radius: 50%;
+}
+
+.profile_info_details {
+  text-align: start;
+  margin-left: 10px;
+}
+
+.profile_info_details > h4 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.profile_info_details_bottom {
+  display: flex;
+}
+
+.profile_info_details_bottom > p {
+  margin: 0;
+  padding: 0 5px;
+  font-size: 14px;
+}
+
+.profile_info_details_bottom_miles {
+  color: gray;
+}
+
+.profile_about {
+  width: 350px;
+  text-align: start;
+}
+
+.profile_about_card {
+  width: 330px;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tags {
+  text-align: start;
+  margin-bottom: 16px;
+}
+
+.tags_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tags_title {
+  margin-bottom: 5px;
+  margin-top: 16px;
+}
+
+.tags_list > p {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 6px 10px;
+  background-color: #d7e7fd;
+  border-radius: 8px;
+  margin: 0;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.tags_last {
+  background-color: white !important;
+  border: 1px solid lightgrey;
+}
+
+.profile_card_slash {
+  width: 330px;
+  height: 1px;
+  background-color: lightgrey;
+}
+
+.website {
+  width: 100%;
+  display: flex;
+  padding: 16px 0;
+  align-items: center;
+}
+
+.website > a {
+  text-decoration: none;
+  color: #0c6bee;
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.worktime {
+  display: flex;
+}
+
+.worktime {
+  display: flex;
+  width: 100%;
+}
+
+.worktime_list > p {
+  margin: 0;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.profile_portfolio {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile_portfolio_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.viewall {
+  color: #0e6def;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.profile_swiper_container {
+  width: 350px;
+  height: 190px;
+}
+
+.profile_swiper {
+  width: 350px;
+}
+
+.profile_swiper_slide {
+  width: 220px !important;
+  height: 170px !important;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.profile_swiper_slide > p {
+  text-align: start;
+  margin: 0;
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+.profile_swiper_slide_img > img {
+  width: 95px;
+  height: 55px;
+  margin: 4px;
+  border-radius: 8px;
+}
+
+.profile_reviews {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile_reviews_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile_reviews_card {
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.profile_reviews_card_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.profile_reviews_card_title_info {
+  display: flex;
+  align-items: center;
+}
+
+.profile_reviews_card_title_info > p {
+  padding: 0 5px;
+  color: gray;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.profile_reviews_card_title_info > h5 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.profile_reviews_card_items {
+  text-align: start;
+  margin: 0 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.profile_reviews_card_items:last-child {
+  border-bottom: none;
+}
+
+.profile_reviews_card_items_title, .profile_reviews_card_items_when {
+  color: gray;
+}
+
+.profile_reviews_card_items_when {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.profile_reviews_card_items_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile_reviews_card_items_title > p {
+  margin: 10px 0;
+}
+
+.profile_reviews_card:last-child {
+  margin-bottom: 80px;
+}
+
+.stars {
+  height: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.profile_buttons {
+  z-index: 10000;
+  position: fixed;
+  width: 350px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  bottom: 0;
+}
+
+.profile_buttons_contact {
+  background-color: white;
+  color: #0c6bee;
+  border: 2px solid #0c6bee;
+}
+
+.profile_buttons_order {
+  background-color: #0c6bee;
+  color: white;
+  border: none;
+}
+
+.profile_buttons_order, .profile_buttons_contact {
+  width: 47%;
+  height: 45px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Poppins;
+}
