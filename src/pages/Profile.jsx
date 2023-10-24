@@ -96,7 +96,7 @@ const Profile = () => {
           <Swiper
             slidesPerView={"auto"}
             spaceBetween={10}
-            pagination={false}
+            pagination={true}
             className="profile_swiper"
             modules={[Pagination]}
           >

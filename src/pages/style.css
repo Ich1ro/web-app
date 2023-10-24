@@ -115,7 +115,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 350px;
+  width: 90vw;
 }
 
 .search_results_title > div {
@@ -131,7 +131,7 @@
 }
 
 .profile_title {
-  width: 350px;
+  width: 95vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -174,12 +174,12 @@
 }
 
 .profile_about {
-  width: 350px;
+  width: 95vw;
   text-align: start;
 }
 
 .profile_about_card {
-  width: 330px;
+  /* width: 330px; */
   background-color: white;
   padding: 5px 10px;
   border-radius: 8px;
@@ -257,6 +257,7 @@
 }
 
 .profile_portfolio {
+  width: 95vw;
   display: flex;
   flex-direction: column;
 }
@@ -274,7 +275,7 @@
 }
 
 .profile_swiper_container {
-  width: 350px;
+  width: 95vw;
   height: 190px;
 }
 
@@ -305,7 +306,7 @@
 }
 
 .profile_reviews {
-  width: 350px;
+  width: 95vw;
   display: flex;
   flex-direction: column;
 }
@@ -392,7 +393,7 @@
 .profile_buttons {
   z-index: 10000;
   position: fixed;
-  width: 350px;
+  width: 95vw;
   padding: 10px;
   display: flex;
   justify-content: space-between;

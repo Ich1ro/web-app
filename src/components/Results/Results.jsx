@@ -7,6 +7,7 @@ import ResultDetails from "../ResultDetails/ResultDetails";
 import { BiHeart } from "react-icons/bi";
 import { BiSolidHeart } from "react-icons/bi";
 import { useNavigate } from "react-router";
+import { Pagination } from "swiper/modules";
 
 const Results = () => {
   const navigate = useNavigate()
@@ -18,8 +19,10 @@ const Results = () => {
     <div className="results">
       <h4 className="results_title">About {results.length} Results</h4>
       <Swiper
-        slidesPerView={1}
+        slidesPerView={'auto'}
         spaceBetween={10}
+        pagination={true}
+        modules={[Pagination]}
         className="results_swiper"
       >
         {results.map(

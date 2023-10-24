@@ -1,12 +1,13 @@
 .results {
-  width: 350px;
+  width: 95vw;
   display: flex;
   text-align: start;
   flex-direction: column;
 }
 
 .results_title {
-  width: 350px !important;
+  /* width: 350px !important; */
+  width: 95vw;
 }
 
 .result_swiper {
